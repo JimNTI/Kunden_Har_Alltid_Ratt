@@ -84,12 +84,10 @@ nav {
 main {
     display: flex;
     grid-area: main;
-    background-color:blueviolet;
     height: 2000px;
     flex-direction: column;
     width: 90%;
     margin: 0 auto;
-
 }
 
 .scroll-places {
@@ -115,13 +113,13 @@ main {
     display: flex;
     height: 100%;
     flex-direction: column;
+    background-color: #2bdf76;
 }
 
 
 article {
     display: flex;
     height: 25%;
-    border: black solid;
     width: 100%;
 }
 
