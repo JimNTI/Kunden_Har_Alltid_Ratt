@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display:grid;
+    height: auto;
+    background-color: #27ae60;
+    grid-column: auto;
+    grid-row: auto auto auto;
+    grid-template-areas:  
+
+    'hd'
+    'main'
+    'ft'       
+}
+
+header {
+    display:flex;
+    flex-direction: column;
+    background-color: aqua;
+    grid-area: hd;
+    height: auto;
+}
+
+nav {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ccc;
+    padding: 1rem;
+}
+
+.navlinks {
+    list-style: none;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.nav-links li {
+    margin: 0 1rem;
+}
+
+.hero {
+    height: 400px;
+
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    padding: 5px 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.search-container input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 250px;
+    font-size: 16px;
+    border-radius: 25px;
+}
+
+.search-container button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+
+
+main {
+    display: flex;
+    grid-area: main;
+    background-color:blueviolet;
+    height: 2000px;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+.scroll-places {
+    display: flex;
+    height: 20%;
+    flex-direction: column;
+}
+
+.scroll-places h1 {
+    text-align: center;
+
+}
+
+.scroll-places .places {
+    list-style: none;
+}
+
+
+
+
+
+.climate-zones {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+
+article {
+    display: flex;
+    height: 25%;
+    border: black solid;
+    width: 100%;
+}
+
+
+
+article img {
+    height: 100%;
+    width: 40%;
+    
+}
+
+article h1 {
+    height: 100%;
+    width: 60%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+footer {
+    grid-area: ft;
+    background-color: gray;
+    height: 300px;
+}
+
