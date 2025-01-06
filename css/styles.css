@@ -29,7 +29,7 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: #ccc;
+    background-color: #27ae60;
     padding: 1rem;
 }
 
@@ -86,6 +86,7 @@ main {
     grid-area: main;
     flex-direction: column;
     width: 100%;
+    height: 3000px;
     margin: 0 auto;
 }
 
@@ -126,7 +127,7 @@ margin-right: auto;
     display: flex;
     height: 100%;
     flex-direction: column;
-    background-color: #2bdf76;
+    background-color: #27ae60;
     width: 100%;
 }
 
@@ -134,57 +135,81 @@ margin-right: auto;
     height: 5%;
 }
 
-
-
-
 .climate-zones article {
-    margin: 0px 5% 0px 5%;
+    margin: 0px 2% 0px 2%;
     display: flex;
     height: 16%;
-    width: 90%;
+    width: 96%;
+}
+
+.climate-zones h1 {
+    font-size: 60px;
+    width: 40%;
+    margin: auto 5% auto 5%;
+}
+
+.climate-zones a {
+    width: 60%;
+    margin: auto 5% auto 5%;
 }
 
 .tropics {
-    background-color: #27b863;
-}
-.temperate {
-    background-color:bisque
-}
-.subtropics {
-    background-color: rgb(230, 218, 91);
-}
-.ocean {
-    background-color: rgb(101, 159, 239);
-}
-.icy {
-    background-color: rgb(166, 188, 248);
-}
-
-
-
-article img {
-    height: 90%;
-    width: 40%;
-    margin: auto 10px auto 10px;
-    
-}
-
-article .climate-zones-text {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("/img/forest.jpg");
+    color: white;
     text-align: left;
     display: flex;
-    flex-direction: column;
-    margin: 20px 100px 20px 100px;
-    background-color: white;
+    flex-direction: row;
+    background-color: transparent;
 }
 
-article .climate-zones-text :hover {
-    
 
+
+.temperate {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("/img/forest.jpg");
+    color: white;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
 }
-article h1 {
-    width: 100%;
-    text-align: center;
+
+
+
+
+
+.subtropics {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("/img/forest.jpg");
+    color: white;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+ 
 }
+
+
+
+
+.ocean {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("/img/forest.jpg");
+    color: white;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+}
+
+
+.icy {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("/img/forest.jpg");
+    color: white;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+}
+
+
 
 
 
