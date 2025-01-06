@@ -6,7 +6,7 @@
 
 body {
     display:grid;
-    height: 2000px;
+    height: auto;
     background-color: #27ae60;
     grid-column: auto;
     grid-row: auto auto auto;
@@ -127,18 +127,25 @@ margin-right: auto;
     height: 100%;
     flex-direction: column;
     background-color: #2bdf76;
-}
-
-
-
-article {
-    display: flex;
-    height: 25%;
     width: 100%;
 }
 
+.climate-zones .space {
+    height: 5%;
+}
+
+
+
+
+.climate-zones article {
+    margin: 0px 5% 0px 5%;
+    display: flex;
+    height: 16%;
+    width: 90%;
+}
+
 .tropics {
-    background-color: #2bdf76;
+    background-color: #27b863;
 }
 .temperate {
     background-color:bisque
@@ -146,14 +153,19 @@ article {
 .subtropics {
     background-color: rgb(230, 218, 91);
 }
-.ocean
+.ocean {
+    background-color: rgb(101, 159, 239);
+}
+.icy {
+    background-color: rgb(166, 188, 248);
+}
 
 
 
 article img {
     height: 90%;
     width: 40%;
-    margin: 30px 10px auto 10px;
+    margin: auto 10px auto 10px;
     
 }
 
@@ -161,7 +173,12 @@ article .climate-zones-text {
     text-align: left;
     display: flex;
     flex-direction: column;
-    margin: 20px 40px 20px 40px;
+    margin: 20px 100px 20px 100px;
+    background-color: white;
+}
+
+article .climate-zones-text :hover {
+    
 
 }
 article h1 {
@@ -174,5 +191,6 @@ article h1 {
 footer {
     grid-area: ft;
     background-color: rgba(128, 128, 128, 0.26);
+    height: 200px;
 }
 
