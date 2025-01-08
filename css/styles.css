@@ -21,7 +21,7 @@ header {
     flex-direction: column;
     background-color: #27ae60;
     grid-area: hd;
-
+    
 }
 
 nav {
@@ -32,12 +32,18 @@ nav {
     background-color: #27ae60;
     padding: 1rem;
 }
+nav .logo {
+    display: flex;
+    height: 1rem;
+}
 
 .navlinks {
     list-style: none;
     display:flex;
     flex-direction: row;
     justify-content: space-evenly;
+    width: 50%;
+    font-size: 20px;
 
 }
 
@@ -46,9 +52,7 @@ nav {
 }
 
 .hero img{
-    height: auto;
     width: 100%;
-
 }
 
 .search-container {
@@ -57,9 +61,10 @@ nav {
     gap: 5px;
     background-color: white;
     border: 1px solid #ccc;
-    border-radius: 25px;
+    border-radius: 10px;
     padding: 5px 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100px;
 }
 
 .search-container input {
@@ -78,6 +83,12 @@ nav {
     font-size: 20px;
 }
 
+nav .social-medias {
+    display:flex;
+    height: 1rem;
+    width: 10%;
+}
+
 
 
 
@@ -92,12 +103,13 @@ main {
 
 .scroll-places {
     display: flex;
-    height: 20%;
+    height: auto;
     flex-direction: column;
 }
 
 .scroll-places h1 {
     text-align: center;
+    padding-bottom: 50px;
 
 }
 
@@ -106,21 +118,15 @@ main {
     display: flex;
     flex-direction: row;
     width: 100%;
-justify-content: space-evenly;
+    justify-content: space-evenly;
 }
 
 
 
-.scroll-places .places a img {
+.scroll-places .places img {
 width: 25%;
-margin-left: auto;
-margin-right: auto;
+margin: auto auto auto auto;
 }
-
-
-
-
-
 
 
 .climate-zones {
@@ -145,7 +151,8 @@ margin-right: auto;
 .climate-zones h1 {
     font-size: 60px;
     width: 40%;
-    margin: auto 5% auto 5%;
+    text-align: center;
+    margin: auto auto auto auto;
 }
 
 .climate-zones a {
