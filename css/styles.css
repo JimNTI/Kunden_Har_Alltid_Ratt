@@ -57,7 +57,6 @@ nav .logo {
 
 .navlinks a:hover {
     text-shadow: 0px 0px 10px white;
-    font-size: 21px;
 }
 
 
@@ -258,7 +257,7 @@ footer {
 }
 
 .card-container {
-    margin: 20px 0 20px 0;
+    margin: 40px 0 40px 0;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -280,8 +279,14 @@ display: flex;
 flex: row;
 flex-wrap: wrap;
 color: white;
+box-shadow: 0px 0px 10px;
 }
 
+.visit-card:hover {
+    box-shadow: 0px 0px 20px;
+    cursor: pointer;
+    transform: scale(1.1);
+}
 .visit-card .picture{
     height: 40%;
     width: 100%;
@@ -310,6 +315,5 @@ color: white;
     font-size: 12px;
     flex-wrap: wrap;
     line-height: 1.5;
-
 }
 
