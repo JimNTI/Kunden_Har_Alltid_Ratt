@@ -183,19 +183,31 @@ margin: auto auto auto auto;
     height: 100%;
     flex-direction: column;
     background-color: #27ae60;
-    width: 100%;
+    width: 95%;
+    margin: 0 auto 0 auto;
+}
+
+.climate-zones h2 {
+    text-align: center;
+    margin: 20px 0 20px 0;
+    font-size: 50px;
+}
+
+hr {
+    height: 2px;
+    width: 75%;
+    border: none;
+    background-color: white;
+    margin: auto;
 }
 
 .climate-zones a {
     color: white;
 }
 
-.climate-zones .space {
-    height: 3%;
-}
 
 .climate-zones article {
-    margin: 20px 2% 20px 2%;
+    margin: 30px 2% 30px 2%;
     display: flex;
     height: auto;
     width: 96%;
@@ -205,7 +217,8 @@ margin: auto auto auto auto;
 .climate-zones article:hover {
     transform: scale(1.01);
 }
-.climate-zones h2 {
+
+.climate-zones h3 {
     font-size: 60px;
     width: 40%;
     text-align: center;
@@ -319,7 +332,7 @@ footer .logo img {
     padding: 0 20px 0 20px;
 }
 
-footer h3 {
+footer h4 {
     font-size: 18px;
 }
 
